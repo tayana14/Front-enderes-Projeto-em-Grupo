@@ -1,0 +1,152 @@
+
+body{
+    /*background-color: #0f0f0ff1;*/
+    background: #121212;
+     
+  }
+
+#login {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.card {
+
+    background-color:#fff;
+
+    padding: 40px;
+
+    border-radius: 32px;
+
+    width:344px;
+
+}
+
+.card-header {
+
+    padding-bottom: 25px;
+
+    opacity: 0.8;
+
+    color: rgb(25, 25, 25);
+
+}
+
+.card-header::after {
+
+    content: "";
+
+    width: 100px;
+
+    height: 1px;
+
+    background-color: rgb(25, 25, 25);
+
+    display: block;
+
+    margin-top: 2px;
+
+    margin-left: -5px;
+
+}
+
+.card-content label {
+
+    color: rgb(25, 25, 25);
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+}
+
+.card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+
+}
+
+.card-content-area input {
+
+    margin-top: 10px;
+
+    padding:0 5px;
+
+    background-color: transparent;
+
+    border:none;
+
+    border-bottom: 1px solid #2e2d2d;
+
+    outline: none;
+
+    color: rgb(25, 25, 25);
+
+}
+#eye {
+    position: relative;
+    top: -72%;
+    left: 91%;
+    transform:translate(-30%,-120%);
+    cursor: pointer;
+    
+}
+
+.card-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.card-footer .submit{
+
+    width: 100%;
+
+    height: 40px;
+
+    background: #121212;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #242737, #3b4a4d);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #242737, #3b4a4d);
+    
+
+    border:none;
+
+    color:#e1e1e1;
+
+    margin: 14px 0;
+    
+
+}
+
+.card-footer a {
+
+    text-align: center;
+
+    font-size: 12px;
+    
+    padding-bottom: 5px;
+
+    opacity: 0.8;
+
+    color: rgb(34, 33, 33);
+
+    text-decoration: none;
+
+}

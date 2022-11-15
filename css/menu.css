@@ -1,0 +1,104 @@
+/*css da barra de acessibilidade*/
+.flutuante {
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align:center;
+  left:24px;
+  top:50%;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  width:100%;
+  max-width:350px;
+}
+
+#acessibilidade {
+  background: rgba(255, 255, 255, 0);
+  color:#055656b9;
+  transition:.25s;
+  -webkit-animation: 1.25s bounce infinite;
+          animation: 1.25s bounce infinite;
+}
+#acessibilidade:hover {
+  cursor:pointer;
+  background: rgba(255,255,255,.95);
+  color:#0653aa8a;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+ul.open {
+  display: inline-block;
+  max-height: 480px;
+  visibility: visible;
+  opacity:1;
+ 
+}
+#fechar{
+  cursor: pointer;
+  right:5px;
+}
+#fechar:hover{
+ padding: 2px;
+ background: rgba(255,255,255,.95);
+ color:#0653aa8a;
+ border-radius: 5px;
+
+}
+/* animation */
+@-webkit-keyframes bounce {
+  0% {margin-top:0;}
+  50% {margin-top:-15px; margin-bottom:15px;}
+  100% {margin-top:0;}
+}
+@keyframes bounce {
+  0% {margin-top:0;}
+  50% {margin-top:-15px; margin-bottom:15px;}
+  100% {margin-top:0;}
+}
+
+
+ul {
+  width: 94px;
+  list-style: none;
+  padding: 0;
+  background:#93c7d6;
+  max-height: 0;
+  transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);
+  overflow: hidden;
+  visibility: hidden;
+  border-radius:3px;
+  opacity:0;
+}
+
+li .links {
+  padding:5px 0;
+  display: block;
+  transition:.25s
+}
+li .links:hover {
+  background: #6fabbc;
+}
+
+a {
+  color:#fff;
+  text-decoration: none;
+}
+
+ #estilo{
+  margin: 0;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  color: #fff;
+}
+#estilo:hover{
+  background: #6fabbc;
+}
+.zoom {
+  margin-bottom: 6px;
+  background-color: #6fabbc49;
+  border-color: rgba(121, 35, 201, 0.404);
+  color: rgb(7, 5, 5);
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
