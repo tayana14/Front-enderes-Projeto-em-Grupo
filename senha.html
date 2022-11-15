@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <!-- box icons davi-->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <!--link do font awesome// por em todas as paginas-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--link do estilo da barra de acessiblidade// por em todas as paginas-->
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
+        <!--link do contrast// por em todas as paginas juliana-->
+        <link rel="stylesheet" type="text/css" href="css/contraste.css">
+        <!--link da barra, footer do davi-->
+        <link rel="stylesheet" href="css/nave-footer.css">
+        <!--css da karina-->
+        <link rel="stylesheet" href="css/senha.css">
+
+        <title>Recuperaçao de senha</title>
+
+    </head>
+
+    <body>
+
+         <!--Cabeçalho-->
+  <header>
+
+    <!--Navbar-->
+    <div class="company-logo"><a href="#"><img src="fotos/logo.png"></a></div>
+    <nav class="navbar">
+      <div class="nav-items">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+        <li class="nav-item"><a href="equipe.html" class="nav-link">Equipe</a></li>
+        <li class="nav-item"><a href="cadastro.html" class="nav-link">Cadastre-se</a></li>
+        <li class="nav-item"><a href="login.html" class="nav-link">Entrar</a></li>
+      </div>
+    </nav>
+    <div class="menu-toggle">
+      <i class="bx bx-menu"></i>
+      <i class="bx bx-x"></i>
+    </div>
+  </header>
+  <!--formulario-->
+  <div id="login">
+
+    <form class="card">
+
+        <div class="card-header">
+
+            <h2>Recuperaçao De Senha</h2>
+
+        </div>
+
+        <div class="card-content">
+
+            <div class="card-content-area">
+
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="digiteumemail@valido.com"
+                required
+                autofocus
+              >
+
+            </div>
+
+           
+
+        </div>
+
+        <div class="card-footer">
+
+            <input type="submit" value="Enviar" class="submit">
+
+                
+            <a href="login.html" class="logar">Login</a>
+          
+
+        </div>
+
+    </form>
+
+</div>
+
+
+
+    <!--Rodapé-->
+    <footer>
+        <div class=" end-footer">
+            <div class="copyright">copyright © 2022 - Present • <b>FRONTENERS TECH SERVICES</b></div>
+            <a class="designer" href="#">Squad 2: T6</a>
+        </div>
+    </footer>
+        <!--barra de acessibilidade  // usar em todas as paginas-->
+        <div class="flutuante">
+          <i id="acessibilidade" class="fa-solid fa-universal-access fa-3x" title="Acessibilidade"></i>
+          
+    
+    <ul>
+      <span id="close"><i id="fechar" class="fa-regular fa-circle-xmark " title="fechar"></i></span>
+      <li><a class="links" accesskey="1" href="">Conteúdo</a></li>
+      <li><a class="links" accesskey="2" href="">Rodapé</a></li>
+      <li><a class="links" accesskey="3"id="to-high-contrast" href="">Contraste</a></li>
+      <p id="estilo">Fontes:</p>
+      <li><input accesskey="4" class="zoom"type="button" id="aumentar" value="grande"></li>
+      <li><input accesskey="5" class="zoom"type="reset" id="resertar" value="normal"></li>
+      <li><input accesskey="6" class="zoom" type="button" id="diminuir"value="pequeno"></li>
+      
+    </ul>
+    </div>
+    <!--fim da barra de acessibilidade-->
+  
+      <!--inicio do vlibras // usar em todas as paginas-->
+      <div class="enabled" id="vlibras">
+          <div class="active" id="vlibras-b"></div>
+          <div id="vlibras-w">
+          <div class="vw-plugin-top-wrapper"></div>
+          </div>
+      </div>
+      <!--fim do vlibras-->
+    <!--js do davi-->
+    
+    <script  src="js/index-script.js"></script>
+  <!--chamada do js do formulario login-->
+  <script src="js/login.js"></script>
+  <!--chamada do jquery // por em todas as paginas-->
+  <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+  <!--js da barra de acessibilidade // por em todas as paginas-->
+  <script src="js/default.js" type="text/javascript"></script>
+  <!--vlibras // por em todas as paginas por sempre por ultimo de tudo -->
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script src="js/initvlibras.js"></script>
+
+
+
+    </body>
+
+</html>
