@@ -9,13 +9,13 @@ Projeto-em-Grupo Modulo 2 Resilia/Senac
 <li>🔹 CSS: foi utilizado bootstrap para melhorar visualmente nossa página, trazendo um arquivo com olhar mais profissional.</li>
 <li>🔹 JavaScript: todas as interações foram criadas utilizando Javascript, utilizamos da API de CEP para o formulário.</li>
 </ul>
-<li>Link do site : 
+<li>🔹 Link do site : 
 https://tayana14.github.io/front-enderes---Projeto-em-Grupo/ </li>
 
-<li>Slid da apresentação
+<li>🔹 Slid da apresentação
 https://www.canva.com/design/DAFRBgpCO2I/8tsYv8isbfBhTcQKduZRbA/view?utm_content=DAFRBgpCO2I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton#1</li>
 
-<li>Pdf da apresentação
+<li>🔹 Pdf da apresentação
 https://drive.google.com/file/d/1mKNOPR1sCzUk9MlzOCdjESnnMqA57qmT/view?usp=share_link</li>
 
 <h2> :computer_mouse: Pagina Home :computer_mouse: </h2>
