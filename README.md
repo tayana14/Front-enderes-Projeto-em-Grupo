@@ -1,4 +1,4 @@
-# <h1>>📜 Projeto Front-enderes 📜</h1>
+# <h1>📜 Projeto Front-enderes 📜</h1>
 
 Projeto-em-Grupo Modulo 2 Resilia/Senac
 
