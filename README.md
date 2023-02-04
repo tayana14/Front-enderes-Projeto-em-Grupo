@@ -17,3 +17,6 @@ https://www.canva.com/design/DAFRBgpCO2I/8tsYv8isbfBhTcQKduZRbA/view?utm_content
 
 <li>Pdf da apresentação
 https://drive.google.com/file/d/1mKNOPR1sCzUk9MlzOCdjESnnMqA57qmT/view?usp=share_link</li>
+
+<h2> :computer_mouse: Pagina Sobre :computer_mouse: </h2>
+<img src="https://imgur.com/ffYlYOX.png" width="100%"></img>
